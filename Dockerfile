@@ -8,4 +8,4 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 VOLUME /var/image/
 
-CMD ["python", "take.py", "60"]
+CMD ["python", "take.py", "10"]
